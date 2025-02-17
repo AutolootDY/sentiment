@@ -1,5 +1,22 @@
 <p align="center">
-  <img src="รูป backtest/usd .png"/>
+  <img src="รูป/1.png"/>
 </p>
 
-- cp all public company limited future
+- ทำการเลือกเหรียญที่มีไฟล์ sentiment หนักสุด 17 เหรียญ จาก 2984เหรียญ
+
+<p align="center">
+  <img src="รูป/2.png"/>
+</p>
+
+- ฟังก์ชั่น ต่างๆในการ implement sentiment
+
+
+
+- <p align="center">
+  <img src="รูป/output.png"/>
+</p>
+
+- output จาก ฟังก์ชั่น จะเห็นว่ามีแค่ 2 เหรียญ ที่เกิดsignal จากทั้งหมด17 เหรียญ อาจจะเกิดจากการตั้ง เส้นอ้างอิงที่ -30 ที่อาจจะมากเกินไปสำหรับเหรียญที่มีข่าวไม่แรง
+
+
+
